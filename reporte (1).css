@@ -1,0 +1,38 @@
+body {
+    user-select: none;
+    width: 99%;
+    font-family: 'Oswald', sans-serif;
+    background-image: url("https://tipsmake.com/data/thumbs/download-pokemon-wallpapers-download-pokemon-wallpaper-thumb-QmJUfttb2.jpg");
+    background-color: #cccccc;
+    color: white;
+}
+
+.poke-tabla {
+    width: 25%;
+    margin: 10px;
+    height: 100%;
+}
+tr, th, table {
+    border: 1px solid white;
+}
+h1 {
+    margin-top: 0;
+}
+table {
+    width: 100%;
+    height: 100%;
+    font-size: 23px;
+    border-collapse: collapse;
+    text-align: center;
+}
+.poke-contenedores {
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+    justify-content: space-around;
+}
+.entrenadores {
+    background: linear-gradient(rgba(0,0,0,0.5),hsla(0, 79%, 64%, 0.63));
+    border-radius: 10px;
+    padding: 5px 10px;
+}
